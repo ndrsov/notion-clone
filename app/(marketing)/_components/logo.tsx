@@ -11,7 +11,7 @@ export const Logo = () => {
   return (
     <div className="hidden md:flex items-center gap-x-2">
       <Image src={'/logo.svg'} height="40" width="40" alt="Logo" />
-      <p className={cn(font.className, 'font-semibold')}> Not-ion</p>
+      <p className={cn(font.className, 'font-semibold ')}>Notion</p>
     </div>
   );
 };
